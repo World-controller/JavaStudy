@@ -5,4 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class StuController {
+        public int add(int a, int b) {
+            return a + b;
+        }
+
 }
